@@ -12,6 +12,9 @@ body {
   font-size: 1.4rem;
   line-height: 2rem;
   color: $white;
+  &.no-scroll {
+    overflow: hidden;
+  }
 }
 *,
 *:before,
@@ -47,3 +50,4 @@ a {
 @import "blocks/work";
 @import "blocks/tags";
 @import "blocks/cabinet";
+@import "blocks/modal";

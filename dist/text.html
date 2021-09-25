@@ -13,7 +13,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="description" content="">
     
-    <title>Profile</title>
+    <title>post</title>
 </head>
 
 <body class="no-scroll">
@@ -112,38 +112,32 @@
         <!-- main -->
         <main class="main">
             <div class="container">
-            <h1 class="page__title">Профиль</h1>
-            
-            <form action="/" class="form" method="POST">
-                <div class="cabinet">
-                    <div class="cabinet__form">
-                        <div class="form__group form__group--mb">
-                            <input class="form__control" type="text" placeholder="Ваше имя" value="Роман Клочков">
-                            <span class="form__line"></span>
-                        </div>
-                        <div class="form__group form__group--mb">
-                            <input class="form__control" type="email" placeholder="Ваша e-mail" value="romanrus98@Mail.ru">
-                            <span class="form__line"></span>
-                        </div>
-                        <div class="form__group form__group--mb">
-                            <input class="form__control" type="password" placeholder="Новый пароль" >
-                            <span class="form__line"></span>
-                        </div>
-                        <div class="form__group form__group--mb">
-                            <input class="form__control" type="password" placeholder="Подтвердите пароль" >
-                            <span class="form__line"></span>
-                        </div>
-                    </div>
-                    <div class="cabinet_avatar">
-                        <img src="https://placehold.it/150" alt="">
-                        <label class="cabinet__file">
-                            <input type="file">
-                            выбрать аватар
-                        </label>
-                    </div>
+            <article class="post">
+                <div class="post__actions">
+                    <a href="index.html">вернуться назад</a>
+                    <a  href="#">
+                        поделиться<img class="post__actions-icon" src="assets/images/share.svg" alt="">
+                    </a>
                 </div>
-                <button class="btn btn--blue btn--rounded btn--sm" type="submit">Сохранить</button>
-            </form>
+                <div class="post__header post__header--open">
+                    <h1 class="post__title" >
+                       Обо мне.
+                     </h1>
+                </div>
+                <div class="post__content">
+                    <div class="post__text">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                            Elementum volutpat orci turpis urna. Et vestibulum, 
+                            posuere tortor lacinia sit. Sagittis porttitor orci auctor 
+                            in at tincidunt arcu egestas. Fusce arcu sodales lacinia 
+                            eu auctor nunc nam id. Diam sit sed volutpat massa. 
+                            Egestas ornare vel volutpat.
+                        </p>            
+                    </div> 
+                </div><!--/.post__content-->
+               
+            </article><!--/.Post-->
         </div>
         </main>
     </div>
