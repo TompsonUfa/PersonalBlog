@@ -590,6 +590,7 @@ header {
 }
 
 .social__item {
+  width: 25px;
   margin: 0 0.75rem;
 }
 
