@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    
+    <title>SavageUfa | Home</title>
+</head>
+
+<body>
+    <div class="page">
+        <!-- header -->
+        <header>
+            <div class="header__left">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a class="nav__link" href="index.html">Главная</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link has-subnav" href="#">Статьи</a>
+                            <ul class="subnav">
+                                <li>
+                                    <a class="subnav__link" href="#">Создание сайтов</a>
+                                </li>
+                                <li>
+                                    <a class="subnav__link"href="#">Интернет-маркетинг</a>
+                                </li>
+                                <li>
+                                    <a class="subnav__link" href="#">Продвижение видео</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Обо мне</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Реклама</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__right">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Профиль</a>
+                        </li>
+                    </ul>
+                </nav>
+                <form class="search-form" action="/" method="POST">
+                <input class="search-form__input" type="text" placeholder="Поиск по блогу">
+                </form>
+            </div>
+        </header>        <!-- sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar__header">
+                <img class="header__img" src="assets/images/sidebar-header.jpg" alt="">
+            </div>
+            <div class="sidebar__content">
+                <div class="profile">
+                    <img class="profile__avatar" 
+                    src="assets/images/avatar.jpg" alt="">
+                    <div class="profile__name">Роман Клочков</div>
+                    <div class="profile__prof">блог front-end разработчика</div>
+                    <ul class="social">
+                        <li class="social__item">
+                            <a class="social__link" href="https://www.instagram.com/lordzerorus/" target="_blank">
+                                <img src="assets/images/instagram.svg" 
+                                alt="Роман Клочков instagram">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link" href="https://vk.com/miracledemon" target="_blank">
+                                <img src="assets/images/vk.svg" 
+                                alt="Роман Клочков vk">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a class="social__link" href="#" target="_blank">
+                                <img src="assets/images/pinterest.svg" 
+                                alt="Роман Клочков pinterest">
+                            </a>
+                        </li>
+                        
+                    </ul>
+                    <div class="profile__text">
+                        <p>Front-end разработчик. Практик верстки 
+                        сайтов. Созданием сайтов занимаюсь с 2019 года. 
+                        Работал в нескольких ИТ компаниях и наработал
+                        более 10 000 часов в создании сайтов различной 
+                        сложности.</p>
+                    </div><!-- /.profile__text -->
+                </div>  <!-- /.sidebar__content -->
+            </div>
+            <div class="sidebar__footer">
+                <a class="btn btn--red" href="#">Мои работы</a>
+                <button class="btn btn--blue"
+                 type="button">Написать мне</button>
+                
+            </div>
+        </aside>        
+        <!-- main -->
+        <main class="main">
+            <div class="container">
+            <!--stories-->
+            <div class="stories">
+                <div class="stories__item">
+                    <img class="stories__preview" src="assets/images/stories/stories-1.jpg" alt="">   
+                    <div class="stories__title">Отдыхаю на природе</div>
+                    <time class="stories__date" datetime="21.09.2020 19:20">21.09.2020</time>
+                </div>
+                <div class="stories__item">
+                    <img class="stories__preview" src="assets/images/stories/stories-2.jpg" alt="">
+                    <div class="stories__title">Заканчиваю сложный проект</div>
+                    <time class="stories__date" datetime="15.09.2020 9:20">15.09.2020</time> 
+                </div>
+                <div class="stories__item">
+                    <img class="stories__preview" src="assets/images/stories/stories-3.jpg" alt=""> 
+                    <div class="stories__title">Переехал в новую квартиру</div>
+                    <time class="stories__date" datetime="11.09.2020 15:20">11.09.2020</time>
+                </div>
+                <div class="stories__item">
+                    <img class="stories__preview" src="assets/images/stories/stories-4.jpg" alt=""> 
+                    <div class="stories__title">Осень пришла!</div>
+                    <time class="stories__date" datetime="28.08.2020 12:30">28.08.2020</time>  
+                </div>
+            </div> <!--/.stories-->
+            
+            
+            <!--add Post-->
+            <div class="add-post">
+                <form class="add-post__form" action="/" method="POST">
+                <textarea class="add-post__textarea" name="post-descript" placeholder="Напишите что-нибудь"></textarea>
+                <div class="add-post__form-actions">
+                    <label class="add-post__file" for="add-post-file">
+                        <input type="file" id="add-post-file">
+                    </label>
+                    <button class="add-post__send" type="submit">
+                        <img src="assets/images/send.svg" alt="Отправить">
+                    </button>
+                </div>
+                </form>
+            </div><!--/.addPost-->
+            
+            
+            <!--Post-->
+            <div class="post">
+                <div class="post__content">
+                    <p class="post__description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Elementum volutpat orci turpis urna. Et vestibulum, 
+                        posuere tortor lacinia sit. Sagittis porttitor orci auctor 
+                        in at tincidunt arcu egestas. Fusce arcu sodales lacinia 
+                        eu auctor nunc nam id. Diam sit sed volutpat massa. 
+                        Egestas ornare vel volutpat.
+                    </p>
+                </div>
+                <div class="post__footer">
+                    <ul class="post__data">
+                        <li class="post__data-item">
+                        <time datetime="21-06-2020 12:40">21.06.2020</time>
+                        </li>
+                    </ul>
+                </div>
+            </div><!--/.Post-->
+            <!--Post-->
+            <article class="post">
+                <div class="post__header post__header--preview">
+                    <img class="post__header-img" src="assets/images/post/post1.jpg" alt="">
+                </div>
+                <div class="post__content">
+                    <h2 class="post__title">
+                       <a href="post.html">Как писать код быстро и безболезненно?</a>
+                    </h2>
+                    <p class="post__description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Elementum volutpat orci turpis urna. Et vestibulum, 
+                        posuere tortor lacinia sit. Sagittis porttitor orci auctor 
+                        in at tincidunt arcu egestas. Fusce arcu sodales lacinia 
+                        eu auctor nunc nam id. Diam sit sed volutpat massa. 
+                        Egestas ornare vel volutpat.
+                    </p>
+                </div>
+                <div class="post__footer">
+                    <ul class="post__data">
+                        <li class="post__data-item">
+                            <time datetime="21-06-2020 12:40">21.06.2020</time>
+                        </li>
+                        <li class="post__data-item">
+                            <a class="" href="">Cоздание сайтов</a>
+                        </li> 
+                    </ul>
+                    <a class="post__read" href="post.html">читать</a>
+                </div>
+            </article><!--/.Post-->
+            <article class="post">
+                <div class="post__header post__header--preview">
+                    <div class="embed">
+                        <iframe  src="https://www.youtube.com/embed/_daTfgc4u3k" 
+                        frameborder="0"></iframe>
+                     </div>
+                </div>
+                <div class="post__content">
+                    <h2 class="post__title">
+                       <a href="post.html">Лайв музыка для программирования!)</a>
+                    </h2>
+                </div>
+                <div class="post__footer">
+                    <ul class="post__data">
+                        <li class="post__data-item">
+                            <time datetime="21-06-2020 12:40">21.06.2020</time>
+                        </li>
+                        <li class="post__data-item">
+                            <a class="" href="">продвижение видео</a>
+                        </li> 
+                    </ul>
+                    <a class="post__read" href="">оставить комментарий</a>
+                </div>
+            </article><!--/.Post-->
+            <article class="post">
+                <div class="post__header post__header--preview">
+                    <img class="post__header-img"  src="assets/images/post/car.jpg" alt="">
+                </div>
+                <div class="post__content">
+                    <h2 class="post__title">
+                       <a href="post.html">Меня спрашивают, а для чего я начал изучать программирование. Вот мой ответ.</a>
+                    </h2>
+                    <p class="post__description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Elementum volutpat orci turpis urna. Et vestibulum, 
+                        posuere tortor lacinia sit. Sagittis porttitor orci auctor 
+                        in at tincidunt arcu egestas. Fusce arcu sodales lacinia 
+                        eu auctor nunc nam id. Diam sit sed volutpat massa. 
+                        Egestas ornare vel volutpat.
+                    </p>
+                </div>
+                <div class="post__footer">
+                    <ul class="post__data">
+                        <li class="post__data-item">
+                            <time datetime="21-06-2020 12:40">21.06.2020</time>
+                        </li>
+                        <li class="post__data-item">
+                            <a class="" href="">Cоздание сайтов</a>
+                        </li> 
+                    </ul>
+                    <a class="post__read" href="post.html">читать</a>
+                </div>
+            </article><!--/.Post-->
+            <!--pagination-->
+            <ul class="pagination">
+                <li class="pagination__item">
+                    <a class="pagination__link" href="">&lt;</a>
+                </li>
+                <li class="pagination__item">
+                    <a class="pagination__link active" href="#">1</a>
+                </li>
+                <li class="pagination__item">
+                    <a class="pagination__link" href="#">2</a>
+                 </li>
+                 <li class="pagination__item">
+                    <a class="pagination__link" href="#">3</a>
+                 </li>
+                 <li class="pagination__item">
+                    <a class="pagination__link" href="">&gt;</a>
+                </li>
+            </ul>
+        </div>
+        </main>
+    </div>
+
+        <!-- js -->
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

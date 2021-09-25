@@ -1,0 +1,37 @@
+.related {
+  padding-top: 0.5rem;
+  border-bottom: 1px solid #1c1c1c;
+}
+.related__title {
+  font-size: 1.6rem;
+  line-height: 1.3;
+  color: $white;
+  font-weight: 500;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+.related__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.related__list-item {
+  width: 50%;
+  margin-bottom: 2.5rem;
+}
+.related__list-title {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #f3eba2;
+  text-overflow: ellipsis; //Текст обрезается и
+  // к концу строки добавляется многоточие.
+  overflow: hidden; //прячитит то что выходит за границы
+  white-space: nowrap; //запрещяем перенос на новую строку
+  a {
+    color: inherit;
+  }
+}
+.related__list-date {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #828282;
+}
