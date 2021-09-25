@@ -13,7 +13,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="description" content="">
     
-    <title>Works</title>
+    <title>signup</title>
 </head>
 
 <body>
@@ -112,52 +112,34 @@
         <!-- main -->
         <main class="main">
             <div class="container">
-            <h1 class="page__title">Мои работы</h1>
-            <article class="work">
-                <div class="work__preview">
-                    <img src="assets/images/work/workOne.png" alt="">
+            <h1 class="page__title page__title--center">Регистрация</h1>
+            <form class="form form--auth" action="/" method="POST">
+                <div class="form__group form__group--mb">
+                    <input class="form__control" type="text" placeholder="Ваше имя">
+                    <span class="form__line"></span>
                 </div>
-                <div class="work__content">
-                    <h2 class="work__title">
-                        <a href="https://github.com" target="_blank">github.com</a>
-                    </h2>
-                    <div class="work__description">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit asperiores doloribus explicabo atque dolorem temporibus totam optio porro fugiat maxime eaque harum corrupti quos saepe amet rerum, odio non corporis?</p>
+                <div class="form__group form__group--mb">
+                    <input class="form__control" type="email" placeholder="Ваше e-mail">
+                    <span class="form__line"></span>
+                </div>
+                <div class="form__group form__group--mb">
+                    <input class="form__control" type="password" placeholder="Подтвердите пароль" >
+                    <span class="form__line"></span>
+                </div>
+                <div class="form__group form__group--mb">
+                    <input class="form__control" type="password" placeholder="Подтвердите пароль" >
+                    <span class="form__line"></span>
+                </div>
+                <div class="form__footer form__footer--center">
+                    <div class="form__group form__group--mb">
+                        <button class="btn btn--blue btn--rounded btn--sm" type="submit">Регистрация</button>
                     </div>
-                    <ul class="tags">
-                        <li class="tags__item">дизайн</li>
-                        <li class="tags__item">создание сайта</li>
-                        <li class="tags__item">SMM</li>
+                    <ul class="form__footer-list">
+                        <li><a href="signin.html">войти</a></li>
+                        <li><a href="reset.html">восстановить</a></li>
                     </ul>
-                    <div class="work__footer">
-                        <a class="btn btn--blue btn--rounded btn--sm" href="https://github.com" target="_blank">Перейти на сайт</a>
-                    </div>
                 </div>
-            </article>
-            <article class="work">
-                <div class="work__preview">
-                    <img src="assets/images/work/workTwo.jpg" alt="">
-                </div>
-                <div class="work__content">
-                    <h2 class="work__title">
-                        <a href="https://github.com" target="_blank">github.com</a>
-                    </h2>
-                    <div class="work__description">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                    </div>
-                    <ul class="tags">
-                        <li class="tags__item">дизайн</li>
-                        <li class="tags__item">создание сайта</li>
-                        <li class="tags__item">SMM</li>
-                        <li class="tags__item">дизайн</li>
-                        <li class="tags__item">создание сайта</li>
-                        <li class="tags__item">SMM</li>
-                    </ul>
-                    <div class="work__footer">
-                        <a class="btn btn--blue btn--rounded btn--sm" href="https://github.com" target="_blank">Перейти на сайт</a>
-                    </div>
-                </div>
-            </article>
+            </form>
         </div>
         </main>
     </div>

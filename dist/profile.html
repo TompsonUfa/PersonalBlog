@@ -13,7 +13,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="description" content="">
     
-    <title>Works</title>
+    <title>Profile</title>
 </head>
 
 <body>
@@ -112,52 +112,38 @@
         <!-- main -->
         <main class="main">
             <div class="container">
-            <h1 class="page__title">Мои работы</h1>
-            <article class="work">
-                <div class="work__preview">
-                    <img src="assets/images/work/workOne.png" alt="">
-                </div>
-                <div class="work__content">
-                    <h2 class="work__title">
-                        <a href="https://github.com" target="_blank">github.com</a>
-                    </h2>
-                    <div class="work__description">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit asperiores doloribus explicabo atque dolorem temporibus totam optio porro fugiat maxime eaque harum corrupti quos saepe amet rerum, odio non corporis?</p>
+            <h1 class="page__title">Профиль</h1>
+            
+            <form action="/" class="form" method="POST">
+                <div class="cabinet">
+                    <div class="cabinet__form">
+                        <div class="form__group form__group--mb">
+                            <input class="form__control" type="text" placeholder="Ваше имя" value="Роман Клочков">
+                            <span class="form__line"></span>
+                        </div>
+                        <div class="form__group form__group--mb">
+                            <input class="form__control" type="email" placeholder="Ваша e-mail" value="romanrus98@Mail.ru">
+                            <span class="form__line"></span>
+                        </div>
+                        <div class="form__group form__group--mb">
+                            <input class="form__control" type="password" placeholder="Новый пароль" >
+                            <span class="form__line"></span>
+                        </div>
+                        <div class="form__group form__group--mb">
+                            <input class="form__control" type="password" placeholder="Подтвердите пароль" >
+                            <span class="form__line"></span>
+                        </div>
                     </div>
-                    <ul class="tags">
-                        <li class="tags__item">дизайн</li>
-                        <li class="tags__item">создание сайта</li>
-                        <li class="tags__item">SMM</li>
-                    </ul>
-                    <div class="work__footer">
-                        <a class="btn btn--blue btn--rounded btn--sm" href="https://github.com" target="_blank">Перейти на сайт</a>
-                    </div>
-                </div>
-            </article>
-            <article class="work">
-                <div class="work__preview">
-                    <img src="assets/images/work/workTwo.jpg" alt="">
-                </div>
-                <div class="work__content">
-                    <h2 class="work__title">
-                        <a href="https://github.com" target="_blank">github.com</a>
-                    </h2>
-                    <div class="work__description">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                    </div>
-                    <ul class="tags">
-                        <li class="tags__item">дизайн</li>
-                        <li class="tags__item">создание сайта</li>
-                        <li class="tags__item">SMM</li>
-                        <li class="tags__item">дизайн</li>
-                        <li class="tags__item">создание сайта</li>
-                        <li class="tags__item">SMM</li>
-                    </ul>
-                    <div class="work__footer">
-                        <a class="btn btn--blue btn--rounded btn--sm" href="https://github.com" target="_blank">Перейти на сайт</a>
+                    <div class="cabinet_avatar">
+                        <img src="https://placehold.it/150" alt="">
+                        <label class="cabinet__file">
+                            <input type="file">
+                            выбрать аватар
+                        </label>
                     </div>
                 </div>
-            </article>
+                <button class="btn btn--blue btn--rounded btn--sm" type="submit">Сохранить</button>
+            </form>
         </div>
         </main>
     </div>
